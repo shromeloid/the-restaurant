@@ -1,0 +1,44 @@
+.adminPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.bookingslist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: decimal;
+}
+
+.bookingslist a {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .loadingContainer > * {
+    margin: auto;
+  }
+  
